@@ -1,0 +1,13 @@
+query {
+  feed {
+    id
+    title
+    content
+    published
+    author {
+      id
+      name
+      email
+    }
+  }
+}

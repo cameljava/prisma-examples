@@ -1,0 +1,17 @@
+{
+  draftsByUser(
+    userUniqueInput: {
+      email: "mahmoud@prisma.io"
+    }
+  ) {
+    id
+    title
+    content
+    published
+    author {
+      id
+      name
+      email
+    }
+  }
+}

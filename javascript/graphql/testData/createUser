@@ -1,0 +1,5 @@
+mutation {
+  signupUser(data: { name: "Sarah", email: "sarah@prisma.io" }) {
+    id
+  }
+}
