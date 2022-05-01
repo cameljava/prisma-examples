@@ -24,3 +24,5 @@ experimental/**/*.db
 .nuxt
 dev.db
 *.env*
+tags
+typescript/graphql/schema.graphql
